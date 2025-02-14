@@ -1,0 +1,3 @@
+# sil-backend-assessment
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNlYW5wbWluaW5nYWhAZ21haWwuY29tIiwiZXhwIjoxNzM5NjA3MDE1LCJ1c2VyX2lkIjoxfQ.X9MGV8BKaiv_a3u06i6LSXf0yFasWVojaPM7T_iWdq4"}

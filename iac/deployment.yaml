@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: product-api
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: product-api
+  template:
+    metadata:
+      labels:
+        app: product-api
+    spec:
+      containers:
+        - name: product-api
+          image: seanminingah/sil-backend-assessment:latest
+          imagePullPolicy: Never
+          ports:
+            containerPort: 8080
+          resource:
+            limits:
+              memory: "256Mi"
+              cpu: "200m"
